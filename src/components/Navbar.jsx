@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="object-contain w-9 h-9" />
+          <img src={logo} alt="logo" className="object-contain w-11 h-11" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Akshat &nbsp;<span className=" sm:block">Bisht</span>
           </p>
