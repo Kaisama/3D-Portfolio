@@ -18,7 +18,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -36,9 +35,6 @@ import temperature from "./temperature.jfif";
 import portf from "./portf.jpg";
 import street from "./street.png";
 import multi from "./multi.png";
-
-
-
 
 export {
   logo,
@@ -60,10 +56,8 @@ export {
   reactjs,
   redux,
   tailwind,
-
   threejs,
   meta,
- 
   starbucks,
   tesla,
   carrent,
