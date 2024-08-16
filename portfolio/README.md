@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">Akshat Bisht Portfolio [Live Link:-https://66a394f1ee6c2a2733d6538c--delightful-toffee-bca0a9.netlify.app/]</h3>
+  <h3 align="center">Akshat Bisht Portfolio [Live Link:-https://66bf4252c248981870946d3a--roaring-rolypoly-d30ca9.netlify.app/]</h3>
   
 
  
