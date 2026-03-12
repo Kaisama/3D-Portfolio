@@ -27,16 +27,26 @@ import {
   portf,
   street,
   multi,
+  ebizon,
+  cppgg,
+  hopingminds,
+  typescript,
+  shopify,
+  viafetpic,
+  igelebepic,
+  dtfpic,
+  watchmyprospectpic,
+  reapPic,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "work",
+    title: "Experience",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -46,21 +56,37 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Engineer",
     icon: web,
   },
   {
-    title: "React.js Developer",
+    title: "Shopify Custom Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MERN Stack Specialist",
     icon: backend,
   },
   {
-    title: "API Developer",
+    title: "UI/UX Interaction Engineer",
     icon: creator,
-  }
+  },
+  {
+    title: "Backend Architect",
+    icon: nodejs,
+  },
+  {
+    title: "React.js Specialist",
+    icon: reactjs,
+  },
+  {
+    title: "API Design Expert",
+    icon: javascript,
+  },
+  {
+    title: "Database Design Engineer",
+    icon: mongodb,
+  },
 ];
 
 const technologies = [
@@ -76,7 +102,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
- 
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -109,35 +138,48 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
- 
+  {
+    name: "Shopify",
+    icon: shopify,
+  },
 ];
 
 const experiences = [
   {
-    title: "MERN INTERN",
-    company_name: "Hoping Minds",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Ebizon",
+    icon: ebizon,
     iconBg: "#383E56",
-    date: "JAN 2024 - JUN 2024",
+    date: "Sep 2024 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered 'ViaFet', a high-performance MERN-based application featuring complex data management and responsive architecture.",
+      "Developing and maintaining 'Iglebe', another core MERN project, ensuring scalable backend services and dynamic frontend components.",
+      "Architected a specialized DTF (Direct-to-Film) builder using React and Fabric.js, integrated directly into Shopify via iframe embedding.",
+      "Spearheaded product configurability features including automated background removal and real-time layout previews.",
+      "Collaborating closely with clients to manage feature integration and iterative feedback implementation.",
     ],
   },
-  
   {
-    title: "Full stack Developer [FreeLancing]",
-    company_name: "",
-    icon: meta,
+    title: "Software Engineer Intern",
+    company_name: "CPPGG",
+    icon: cppgg,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - SEP 2023 ",
+    date: "July 2024 – August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Supported development of internal web tools, mainly focused on UI optimization.",
+      "Worked alongside senior developers for performance improvements and feature planning.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Hoping Minds",
+    icon: hopingminds,
+    iconBg: "#383E56",
+    date: "Jan 2024 – June 2024",
+    points: [
+      "Built responsive full-stack applications with React and Express.js.",
+      "Implemented RESTful APIs and MongoDB data storage.",
+      "Participated in debugging, testing, and agile delivery cycles.",
     ],
   },
 ];
@@ -145,7 +187,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Akshat proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -153,7 +195,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Akshat does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -161,7 +203,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Akshat optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -171,9 +213,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "MERN eCommerce",
+    name: "ViaFet",
     description:
-      "Developed a scalable MERN eCommerce platform featuring secure transactions, real-time data updates, and a user-friendly interface. Utilized MongoDB, Express, React, and Node.js to deliver a seamless shopping experience.",
+      "Viafet is a full‑stack healthcare web app for managing patient and pre‑patient workflows end‑to‑end. It provides search, create/edit forms, and structured patient records including documents and related entities (e.g., relatives). The frontend focuses on data-heavy clinical forms and smooth navigation, while the backend handles complex CRUD and workflow logic.",
     tags: [
       {
         name: "react",
@@ -184,279 +226,133 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "express",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: viafetpic,
+    source_code_link: "https://app.viafet-lis.com",
+  },
+  {
+    name: "iGlebe",
+    description:
+      "A robust digital therapy platform built to deliver structured psychological interventions at scale. Developed in collaboration with UTS researchers, the system manages complex user journeys through a 5-month program with localized support in English and Spanish, bridging the gap between clinical research and automated health-tech.",
+    tags: [
+      {
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "express.js",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "redux toolkit",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
       {
-        name: "paypal",
-        color: "blue-text-gradient",
+        name: "clinical-tech",
+        color: "orange-text-gradient",
       },
     ],
-    image: carrent,
+    image: igelebepic,
+    source_code_link: "https://iglebeprogram.asrc.edu.au/",
+  },
+  {
+    name: "DTF Custom Builder",
+    description:
+      "An advanced product configurator built using React and Fabric.js. Features automated background removal and dynamic canvas rendering, enabling users to create high-precision layouts for Direct-to-Film printing, integrated directly into Shopify.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fabricjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shopify",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dtfpic,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Lovisa",
+    name: "WatchMyProspect",
     description:
-      "Developed the Lovisa app using React and integrated it with Shopify. The app features a seamless shopping experience, secure transactions, and real-time updates, enhancing user engagement and satisfaction.",
+      "An AI-powered sales tool featuring admin and user panels with Clerk authentication. Users can import client data via CSV; the system then uses AI to gather latest news and generate personalized outreach emails for each prospect, streamlining the lead generation process.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: watchmyprospectpic,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "REAP",
+    description:
+      "A comprehensive management system featuring a React 18 + MUI admin dashboard for analytics. Built with a Node/Express REST API and MongoDB powering complex workflows (CLF/VO/SHG/HH). Includes JWT authentication, email notifications, Winston logging, and Swagger documentation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
       {
-        name: "html",
-        color: "blue-text-gradient",
+        name: "swagger",
+        color: "orange-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/Kaisama/Aura/tree/main/Frontend",
+    image: reapPic,
+    source_code_link: "https://github.com/",
   },
   {
-    name: "Basic React Project",
+    name: "MERN eCommerce",
     description:
-      "Developed a basic React project to enhance my skills, focusing on creating interactive and dynamic user interfaces, state management, and component-based architecture. The project improved my proficiency in React and JavaScript.",
+      "Professional grade eCommerce solution with full-stack capabilities, including JWT authentication, PayPal integration, and a comprehensive product management dashboard.",
     tags: [
       {
-        name: "reactjs",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "paypal",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: reactpic,
-    source_code_link: "https://github.com/Kaisama/Basic-React-Project",
-  },
-  {
-    name: "React Greet App",
-    description:
-      "Developed a basic Greet app using React. The app allows users to input their name and receive a personalized greeting, showcasing interactive UI elements and state management.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: greet,
-    source_code_link: "https://github.com/Kaisama/Greet_Application",
-  },
-  {
-    name: "Pizza Web App",
-    description:
-      "Developed a basic Greet app using React. The app allows users to input their name and receive a personalized greeting, showcasing interactive UI elements and state management.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: pizza,
-    source_code_link: "https://github.com/Kaisama/Pizza_Web_Application",
-  },
-  {
-    name: "Billing Web App",
-    description:
-      "Developed a basic Greet app using React. The app allows users to input their name and receive a personalized greeting, showcasing interactive UI elements and state management.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: billing,
-    source_code_link: "https://github.com/Kaisama/Billing-Application",
-  },
-  {
-    name: "HomePage NetFlix",
-    description:
-      "Created a replica of the Netflix homepage using HTML and CSS. The project involved designing a responsive layout, styling components to match Netflix's design, and improving my front-end development skills.",
-    tags: [
-      
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: netflix,
-    source_code_link: "https://github.com/Kaisama/HomePage-NetFlix",
-  },
-  {
-    name: "Temperature Converter",
-    description:
-      " The temperature converter app, built with JavaScript, allows users to convert temperatures between Celsius and Fahrenheit.",
-    tags: [
-      
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: temperature,
-    source_code_link: "https://github.com/Kaisama/Temperature-Converter",
-  },
-  {
-    name: "Portfolio Website",
-    description:
-      "Developed a personal portfolio which showcases my projects and skills",
-    tags: [
-      
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: portf,
-    source_code_link: "https://github.com/Kaisama/Portfolio_Website",
-  },
-  {
-    name: "MultiUser ChatApp",
-    description:
-      "Developed a multi-user chat application using Java. The project included real-time messaging, user authentication, and a robust server-client architecture, enhancing my skills in network programming and Java development.",
-    tags: [
-      
-      {
-        name: "java",
-        color: "green-text-gradient",
-      },
-      {
-        name: "swing",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "awt",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JDBC",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: multi,
-    source_code_link: "https://github.com/Kaisama/Multi_User_ChatApp",
-  },
-  {
-    name: "Street_Fighter ",
-    description:
-      "Building a 2D Street Fighter game using Java and Swing involves creating a graphical user interface (GUI) and implementing various game components and mechanics.",
-    tags: [
-      
-      {
-        name: "java",
-        color: "green-text-gradient",
-      },
-      {
-        name: "swing",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "animation",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Animation",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Sound effects and music",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: street,
-    source_code_link: "https://github.com/Kaisama/Street_Fighter",
+    image: carrent,
+    source_code_link: "https://github.com/",
   },
 ];
 

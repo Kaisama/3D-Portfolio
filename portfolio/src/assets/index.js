@@ -19,10 +19,15 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png";
+import shopify from "./company/shopify.png";
 
 import meta from "./company/meta.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ebizon from "./company/ebizonlogo.webp";
+import cppgg from "./company/CPPGG_Primarylogo.png";
+import hopingminds from "./company/hopingmindslogo.png";
 
 import carrent from "./ecom.png";
 import jobit from "./lovisa.jpg";
@@ -35,6 +40,12 @@ import temperature from "./temperature.jfif";
 import portf from "./portf.jpg";
 import street from "./street.png";
 import multi from "./multi.png";
+
+import viafetpic from "./viafetpic.jpg";
+import igelebepic from "./igelebepic.PNG";
+import dtfpic from "./dtfpic.jpg";
+import watchmyprospectpic from "./watchmyprospectpic.png";
+import reapPic from "./reapPic.png";
 
 export {
   logo,
@@ -57,9 +68,14 @@ export {
   redux,
   tailwind,
   threejs,
+  typescript,
+  shopify,
   meta,
   starbucks,
   tesla,
+  ebizon,
+  cppgg,
+  hopingminds,
   carrent,
   jobit,
   reactpic,
@@ -71,4 +87,9 @@ export {
   portf,
   street,
   multi,
+  viafetpic,
+  igelebepic,
+  dtfpic,
+  watchmyprospectpic,
+  reapPic,
 };
