@@ -42,7 +42,7 @@ import street from "./street.png";
 import multi from "./multi.png";
 
 import viafetpic from "./viafetpic.jpg";
-import igelebepic from "./igelebepic.PNG";
+import igelebepic from "./igelebepic.png";
 import dtfpic from "./dtfpic.jpg";
 import watchmyprospectpic from "./watchmyprospectpic.png";
 import reapPic from "./reapPic.png";
